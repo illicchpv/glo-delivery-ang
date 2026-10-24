@@ -1,8 +1,10 @@
 # интенсив - Сервис доставки еды
 
 
-- copy figma https://www.figma.com/design/mTDniLKKWSVnSsUNAtyNlF/Delivery-Food--Copy---Copy-?node-id=230-22216&p=f&t=nf1GbtHTNMN635In-0
-
+- copy figma 
+https://www.figma.com/design/mTDniLKKWSVnSsUNAtyNlF/Delivery-Food--Copy---Copy-?node-id=230-22216&p=f&t=nf1GbtHTNMN635In-0
+- github
+https://github.com/illicchpv/glo-delivery-ang
 
 
 ## День 1. Вёрстка шапки и подвала
