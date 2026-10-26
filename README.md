@@ -61,3 +61,29 @@ https://github.com/illicchpv/glo-delivery-ang
 - Закончить перенос информации из Figma в карточки ресторанов и товаров
 - Сделать пункты списка в футере (подвале) ссылками на goods.html
 
+
+## День 4. JavaScript
+
+### На уроке
+- Получим элементы со страницы
+- Открытие/закрытие модального окна
+- Динамический вывод элементов
+
+### Материалы
+📎Fetch: запросы к серверу [Открыть](https://learn.javascript.ru/fetch)
+📎Переменные [Открыть](https://learn.javascript.ru/variables)
+📎Var, let или const? [Открыть](https://habr.com/ru/company/ruvds/blog/420359/)
+📎Функции [Открыть](https://learn.javascript.ru/function-basics)
+📎Условия [Открыть](https://learn.javascript.ru/ifelse)
+📎Браузерные события [Открыть](https://learn.javascript.ru/introduction-browser-events)
+📎Поиск: getElement*, querySelector* [Открыть](https://learn.javascript.ru/searching-elements-dom)
+📎JSONPlaceholder: тестовые данные [Открыть](https://jsonplaceholder.typicode.com/posts)
+
+
+### ОБЯЗАТЕЛЬНОЕ ЗАДАНИЕ
+- Повторить код за уроком 
+
+### УСЛОЖНЕННОЕ ЗАДАНИЕ
+- Реализовать логический блок goodsFunc в котором повторить логику из restsFunc, но для страницы goods.html
+- Карточки товаров на странице goods.html должны выводиться из одного и того же массива для каждого ресторана
+- Проверить на наличие ошибок в консоли на обеих страничках
