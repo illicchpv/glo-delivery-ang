@@ -87,3 +87,6 @@ https://github.com/illicchpv/glo-delivery-ang
 - Реализовать логический блок goodsFunc в котором повторить логику из restsFunc, но для страницы goods.html
 - Карточки товаров на странице goods.html должны выводиться из одного и того же массива для каждого ресторана
 - Проверить на наличие ошибок в консоли на обеих страничках
+
+
+## github результатов проекта с vue-2  [github](https://github.com/Velmoren/delivery-vue-2) 
