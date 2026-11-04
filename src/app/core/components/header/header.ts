@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { CartService } from '../../services/cart-service';
 
 @Component({
   imports: [],
@@ -6,4 +7,10 @@ import { Component } from '@angular/core';
   styleUrl: './header.scss',
   templateUrl: './header.html',
 })
-export class Header {}
+export class Header {
+  protected readonly cartService = inject(CartService);
+  protected onOpenModal(): void {
+    console.log('onOpenModal: ');
+    this.cartService.onOpenModal();
+  }
+}

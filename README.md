@@ -127,6 +127,16 @@ Create a new project
 
 вывод карточек ресторанов их массива rests до https://youtu.be/xgALDrrft6o?t=3663 
 
+создаём сервис
+>ng generate service core/services/cart-service
+
+создаём компонент cart-modal и переносим туда html из main
+> ng generate component core/components/cart-modal
+
+
+закончил тут - https://youtu.be/xgALDrrft6o?t=4931
+
+подключили cart-modal. открывается закрывается.
 
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
