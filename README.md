@@ -120,6 +120,10 @@ Create a new project
 закончил тут - https://youtu.be/xgALDrrft6o?t=2123
 
 установил \Angular Language Service\
+
+созданы компоненты -
+> ng generate component core/components/header
+> ng generate component core/components/footer
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
