@@ -2,7 +2,7 @@
   <section class="products">
     <div class="container">
       <div class="products-wrapper" id="products-container">
-        @for(product of products; track product.id) {
+        @for(product of categoryProducts(); track product.id) {
 
             <div class="products-card">
               <div class="products-card__image">

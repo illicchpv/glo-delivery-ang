@@ -63,6 +63,7 @@ export interface Product {
   info: string;
   price: number;
   img: string;
+  categories: number[];
 }
 export const PRODUCT_CARDS: Product[] = [
   {
@@ -71,6 +72,7 @@ export const PRODUCT_CARDS: Product[] = [
     info: 'Рис, угорь, соус унаги, кунжут, водоросли нори.',
     price: 250,
     img: 'image1.jpg',
+    categories: [1, 2],
   },
   {
     id: 2,
@@ -78,6 +80,7 @@ export const PRODUCT_CARDS: Product[] = [
     info: 'Рис, лосось, авокадо, огурец, майонез, икра масаго, водоросли нори.',
     price: 395,
     img: 'image2.jpg',
+    categories: [1, 3],
   },
   {
     id: 3,
@@ -85,6 +88,7 @@ export const PRODUCT_CARDS: Product[] = [
     info: 'Рис, креветка отварная, сыр сливочный, лосось, огурец свежий...',
     price: 250,
     img: 'image3.jpg',
+    categories: [1, 4, 5, 6],
   },
   {
     id: 4,
@@ -92,6 +96,7 @@ export const PRODUCT_CARDS: Product[] = [
     info: 'Рис, куриная грудка копченая, икра масаго, томат, айсберг, соус цезарь...',
     price: 250,
     img: 'image4.jpg',
+    categories: [1, 5, 3,],
   },
   {
     id: 5,
@@ -99,6 +104,7 @@ export const PRODUCT_CARDS: Product[] = [
     info: 'Рис, куриная грудка копченая, икра масаго, томат, айсберг, соус цезарь...',
     price: 250,
     img: 'image5.jpg',
+    categories: [2, 3, 4,],
   },
   {
     id: 6,
@@ -106,5 +112,6 @@ export const PRODUCT_CARDS: Product[] = [
     info: 'Рис, водоросли нори, креветки отварные, сыр сливочный, огурцы',
     price: 250,
     img: 'image6.jpg',
+    categories: [1, 6],
   },
 ]
