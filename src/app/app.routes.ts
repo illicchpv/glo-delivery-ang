@@ -8,7 +8,11 @@ export const routes: Routes = [
     loadComponent: () => import('./pages/main/main').then(c => c.Main), // эффективнее так
   },
   {
-    path: 'goods',
+    path: 'goods/:id',
     loadComponent: () => import('./pages/goods/goods').then(c => c.Goods),
-  }
+  },
+  {
+    path: '**',
+    redirectTo: '/',
+  },
 ];

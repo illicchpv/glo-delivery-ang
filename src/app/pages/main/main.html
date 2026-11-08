@@ -30,7 +30,7 @@
       <div class="products-wrapper" id="rests-container">
         @for(rest of rests; track rest.id) {
 
-        <a class="products-card" [routerLink]="'goods'">
+        <a class="products-card" routerLink="goods/{{rest.id}}">
           <div class="products-card__image">
             <img src="./images/rest/{{rest.img}}" alt="{{rest.img}}.">
           </div>
