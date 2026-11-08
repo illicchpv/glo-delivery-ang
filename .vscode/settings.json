@@ -3,6 +3,11 @@
     "Flexbox",
     "libpeerconnection",
     "testem",
+    "лайвкодинг",
     "Тануки"
-  ]
+  ],
+  "files.exclude": {
+    "node_modules": true,
+    "out": true
+  }
 }
