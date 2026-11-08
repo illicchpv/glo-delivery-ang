@@ -1,9 +1,10 @@
 import { Component, inject, signal } from '@angular/core';
 import { REST_CARDS } from './constants';
 import { CartService } from '../../core/services/cart-service';
+import { RouterLink } from '@angular/router';
 
 @Component({
-  imports: [],
+  imports: [RouterLink],
   selector: 'app-main',
   styleUrl: './main.scss',
   templateUrl: './main.html',
